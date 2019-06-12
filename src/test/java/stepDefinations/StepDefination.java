@@ -2,7 +2,6 @@ package stepDefinations;
 
 import org.junit.runner.RunWith;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.junit.Cucumber;
@@ -14,8 +13,8 @@ public class StepDefination {
 
     @Given("^User has account in MI Application$")
     public void user_has_account_in_mi_application() throws Throwable{
-        System.out.println("bad");
-        System.out.println("good");
+        
+        System.out.println("user as account in MI Application");
     }
 
     @When("^Going to flash sale$")
