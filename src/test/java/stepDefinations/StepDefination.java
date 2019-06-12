@@ -14,7 +14,8 @@ public class StepDefination {
 
     @Given("^User has account in MI Application$")
     public void user_has_account_in_mi_application() throws Throwable{
-        System.out.println("User has account in MI Application");
+        System.out.println("bad");
+        System.out.println("good");
     }
 
     @When("^Going to flash sale$")
